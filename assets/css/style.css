@@ -1,0 +1,50 @@
+body {
+    background: rgb(189, 188, 188);
+}
+
+#profile {
+    float: left;
+}
+
+.navigation {
+    background: rgba(195, 236, 195, 0.575);
+    text-align-last: right;
+    padding: 30px;
+}
+
+#name {
+    float: left;
+    background: rgba(72, 104, 73, 0.842);
+    margin-left: 30px;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+section {
+    width: 960px;
+    height: 500px;
+    align-content: center;
+    background: white;
+}
+
+.main {
+    margin: auto;
+}
+
+heading {
+    background: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+p {
+    background: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#profile {
+    margin-left: 20px;
+}

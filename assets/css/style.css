@@ -1,50 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: rgb(189, 188, 188);
+    background-color: #f4f4f4;
 }
 
-#profile {
+.nav-1, .nav-4 {
+    background-color:rgba(176, 233, 176, 0.767);
+    color: rgba(176, 233, 176, 0.767);
     float: left;
+    width: 20%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
 }
 
-.navigation {
-    background: rgba(195, 236, 195, 0.575);
-    text-align-last: right;
-    padding: 30px;
-}
-
-#name {
-    float: left;
-    background: rgba(72, 104, 73, 0.842);
-    margin-left: 30px;
+.nav-2 {
+    background-color: rgba(13, 43, 13, 0.555);
     color: white;
-    padding: 15px;
-    position: relative;
-}
-
-section {
-    width: 960px;
-    height: 500px;
-    align-content: center;
-    background: white;
-}
-
-.main {
-    margin: auto;
-}
-
-heading {
-    background: white;
+    float: left;
+    width: 15%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
     font-size: 30px;
-    margin-left: 20px;
+    text-align: center;
+}
+
+.nav-3 {
+    background-color: rgba(176, 233, 176, 0.767);
+    float: left;
+    width: 45%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+
+
+
+
+.clr {
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    background: rgba(235, 235, 224, 0.801);
+    border: 2px green solid;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 p {
-    background: white;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin: 25px;
+    line-height: 25px;
 }
 
 #profile {
-    margin-left: 20px;
+    float: left;
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: red;
+    margin-top: 400px;
+    text-align: center;
+    padding: 30px;
+    border-top: 5px black solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    padding: 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], 
+textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: red;
 }

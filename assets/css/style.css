@@ -3,9 +3,10 @@
     padding: 0;
 }
 
+
 body {
     background-color: #f4f4f4;
-    background-image: url(../images/white_background.jpg)
+    background-image: url(../images/white_background.jpg);
 }
 
 .nav-1, .nav-4 {
@@ -41,20 +42,9 @@ body {
 }
 
 
-
-
-
-
 .clr {
     clear:both;
 }
-
-
-
-
-
-
-
 
 
 .container {
@@ -92,15 +82,13 @@ p {
     margin: 25px;
 }
 
+a:hover {
+    color: grey;
+}
 
-
-
-
-
-
-
-
-
+a {
+    text-decoration: none;
+}
 
 
 footer {
@@ -114,17 +102,6 @@ footer {
     padding-bottom: 30px;
     border-top: 10px rgba(176, 233, 176, 0.767) solid;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 form {
@@ -162,9 +139,8 @@ input[type="submit"]:hover {
 }
 
 
-
-
 #portfolio {
     margin: 25px;
     border: 2px grey solid;
+    padding-top: 10px;
 }
